@@ -1,0 +1,72 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    height: 844px;
+    width: 390px;
+    overflow-x: hidden;
+}
+
+.select {
+    width: 100px;
+    margin-right: -20px;
+}
+
+.image {
+    height: 20%;
+    margin: 10px 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verifier {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin: 20px;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.slide {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.slideBody {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    position: absolute;
+    transition: 1s;
+}
+
+.nextSlide {
+    transform: translateX(-150px);
+}
+
+.currSlide {
+    transform: translateX(0px);
+}
+
+.prevSlide {
+    transform: translateX(150px);
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 0;
+}
